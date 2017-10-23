@@ -8,12 +8,10 @@ var isPalindrome = function(x) {
     x = x.toString();
     var len = x.length, 
         half = Math.floor(len/2),
-        index = 0,
-        char;
+        index = 0;
     for(index; index < half;index++){
         len--;
-        char = x[len];
-        if(char != x[index]){
+        if(x[len] != x[index]){
            return false;
         }
     }
