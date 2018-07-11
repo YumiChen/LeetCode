@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/valid-parentheses/
+// 388 ms
 /**
  * @param {string} s
  * @return {boolean}
